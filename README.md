@@ -1,5 +1,7 @@
 # Time-Calculator
 Time Calculator, as the name states, calculates time(except seconds).  
+## Automated version
+Detects whether power exists or not, if not, it auto updates into the database after all the necessary calculations.
 ## Working:
 - User is asked to enter the limit, i.e., max number of entries.
 - Entries are taken one by one in `hh1:mm1-hh2:mm2` format.

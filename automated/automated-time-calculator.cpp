@@ -75,7 +75,7 @@ string timelineUpdate(string timeline, int power_cut_status) {
 		mm1 = concat(timeline[15], timeline[16]);
 
 		ofstream outfile;
-		outfile.open("E:\Coding\Cpp\time-calculator\Database\powercut.txt");
+		outfile.open("dir:\path\to\database\database.txt");
 		outfile << timeline;
 		outfile.close();
 		yesterday = string() + timeline[0] + timeline[1];
@@ -85,7 +85,7 @@ string timelineUpdate(string timeline, int power_cut_status) {
 		mm2 = concat(timeline[24], timeline[25]);
 
 		ofstream outfile;
-		outfile.open("E:\Coding\Cpp\time-calculator\Database\powercut.txt");
+		outfile.open("dir:\path\to\database\database.txt")
 		outfile << hh2 << ":" << mm2 << "\n";
 		if(dashes == 1)
 			outfile << "---------------------------------------------------\n";
